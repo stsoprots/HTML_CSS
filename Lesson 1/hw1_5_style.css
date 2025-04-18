@@ -1,0 +1,46 @@
+h2, h4, p{
+    color: white;
+    margin-left: 40px
+}
+
+h1{
+    color: dark;
+    background-color: orange;
+    font-size: 58px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+h2{
+    display: inline-block;
+    background-color:blue;
+}
+
+p{
+    width: 30%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: 70px;
+    padding-bottom: 60px;
+}
+
+span{
+    color: dark;
+    background-color: orange;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+body {
+    background-image: url("hw1_5.jpg");
+    background-position: right center;
+    background-position: 300px 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial;
+}
