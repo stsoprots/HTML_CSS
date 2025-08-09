@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #058686;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dfe9e9;
+    width: 35vw;
+    height: 40vh;
+
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 10vh;
+    text-align: center;
+}
+.caption h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.login{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 35vw;
+    background-color: #f4f4f4;
+    border-radius: 0 0 10px 10px;
+    padding-top: 2vh;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+}
+/*-------------------- form ----------------------------*/
+#name, #password{
+    width : 25vw;
+    height: 4vh;
+    border: grey solid;
+    background-color: #f4f4f4;
+}
+#password{
+    margin-top: 3vh;
+}
+#log{
+    width: 6vw;
+    height: 3vh;
+    border-radius: 10px;
+    border: grey solid;
+    margin-left: 9vw;
+    background-color: #dfe9e9;
+    color: #505050;
+    font-family: 'Raleway', sans-serif;
+}
+#remember{
+    width: 1.7vw;
+}
+.options label{
+    font-family: 'Raleway', sans-serif;
+    color: #525252;
+}

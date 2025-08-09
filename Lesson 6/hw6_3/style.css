@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px lightgrey;
+    margin-bottom: 1.5vh;
+    width: 24vw;
+    height: 50vh;
+}
+.form-login>div>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 13vw;
+}
+.form-login>form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px lightgrey;
+    width: 24vw;
+    height: 5vw;
+}
+.options p{
+    font-family: Arial, sans-serif;
+}
+
+.options p:nth-last-child(3){
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 2.2vh;
+}
+.options p:nth-child(3){
+    color: #023767;
+    font-size: 0.85vw;
+    margin-bottom: -1.5vh;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+    font-weight: bold;
+    color: #365081;
+}
+.options img{
+    width: 21px;
+    height: 21px;
+}
+.registration p{
+    font-family: Arial, sans-serif;
+    font-size: 1vw;
+}
+.registration span{
+    font-weight: bold;
+    color: #0191ec;
+}
+input[type="text"],
+input[type="password"]{
+    width: 18vw;
+    height: 4vh;
+    border: lightgrey solid 1.1px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+input[type="text"]{
+    margin: 4vh auto 0.8vh auto;
+}
+input[type="password"]{
+    margin-bottom: 1.8vh;
+}
+input[type="submit"]{
+    width: 18.3vw;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #65aeef;
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-bottom: 0.7vh;
+}
