@@ -52,9 +52,11 @@ body{
     justify-content: center;
     align-items: center;
     width: 25vw;
-    flex-wrap: wrap;
     margin-top: 3vh;
+    white-space: nowrap;
 }
+
+
 /*-------------------- form ----------------------------*/
 #name, #password{
     width : 25vw;
