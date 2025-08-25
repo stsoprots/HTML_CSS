@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body h2{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*---------------- card-first --------------------------*/
+.card-first{
+    width: 319px;
+    height: 492px;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.card-first p{
+    color: #000;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 211px;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-img{
+    position: absolute;
+    top: -32px
+}
+.games-circle{
+    position: absolute;
+    top: -52px
+}
+/*---------------- card-second --------------------------*/
+.card-second{
+    width: 321px;
+    height: 491px;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-second p,.card-third p{
+    color: #000;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 211px;
+}
+.card-second img{
+    position: absolute;
+    top: -52px
+}
+/*---------------- card-third --------------------------*/
+.card-third{
+    width: 321px;
+    height: 491px;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.card-third img{
+    position: absolute;
+    top: -52px
+}
