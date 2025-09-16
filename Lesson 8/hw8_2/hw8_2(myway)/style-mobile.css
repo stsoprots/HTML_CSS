@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+    .wrapper{
+        padding: 32px 16px;
+        flex-direction: column;
+        width: 343px;
+    }
+    .object{
+        width: 100%;
+    }
+}
